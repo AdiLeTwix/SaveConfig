@@ -8,3 +8,10 @@ Replace / add this to our current userstyle.css file.
 
 Windows path : 
 > C:\Users\<username>\.config\joplin-desktop
+
+Linux/MacOS path:
+> ~/.config/joplin-desktop
+
+# VIM
+
+Replace /  add by your actual .vimrc
