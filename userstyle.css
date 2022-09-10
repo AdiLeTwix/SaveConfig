@@ -9,11 +9,36 @@ body {
   margin-right: 40px;
 }
 
-blockquote {
-    padding: 0 15px;
-    color: #393E46;
-    border-left: 4px solid #00ADB5;  /* old #258EA8*/
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+
+  /*Borders - (Optional)*/
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-right-style: solid;
+  border-right-width: 2px;  
+
+  /*Color border */
+  border-left-color: #46cfb0;
+  border-right-color: #34bc9d;
+  
 }
+
 
 blockquote > :first-child {
     margin-top: 0;
@@ -22,6 +47,7 @@ blockquote > :first-child {
 blockquote > :last-child {
     margin-bottom: 0;
 }
+
 
 
 .table-of-contents {
