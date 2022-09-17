@@ -61,3 +61,14 @@ blockquote > :last-child {
 	font-size: 15px;
 	line-height: 1rem;
 }
+
+
+
+@media print {
+    body {
+        font-size: 12;
+    }
+	blockquote{
+		  font-size: 10;
+	}
+}
